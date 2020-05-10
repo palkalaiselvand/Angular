@@ -1,0 +1,14 @@
+[
+    {
+    "medicationinfoid":"766f6ef9-5890-4fa2-ba5a-72ddc8ae36e7",
+    "profileid":"928bd08e-d324-4c0d-ac74-a6c784a7719f" ,
+    "medecinename":"Vitamin D3",
+    "dosage":"0.5"
+},
+{
+    "medicationinfoid":"d877db07-9d3c-45c9-94e4-e38ac5b8cbf2",
+    "profileid":"928bd08e-d324-4c0d-ac74-a6c784a7719f" ,
+    "medecinename":"Iron syrup",
+    "dosage":"1.0"
+}
+]

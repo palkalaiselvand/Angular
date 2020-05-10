@@ -1,0 +1,24 @@
+<div>
+    <br><br>
+    <table>
+        <tr *ngFor="let immu of immuData.scheduledetails">
+            <td>Schedule :{{immu.vaccineschedule}}</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Vaccine Name</td>
+                        <td>Vaccine Manufacture</td>
+                        <td>Vaccine Type</td>
+                        <td>Expire Date</td>
+                    </tr>
+                    <tr *ngFor="let vaccineData of immu.vaccine">
+                        <td>{{vaccineData.name}}</td>                        
+                        <td>{{vaccineData.manufacture}}</td>                        
+                        <td>{{vaccineData.type}}</td>                        
+                        <td>{{vaccineData.expiredate}}</td>
+                    </tr>
+                </table>                                
+            </td>
+        </tr>        
+    </table>
+  </div>

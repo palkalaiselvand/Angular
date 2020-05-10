@@ -1,0 +1,14 @@
+table{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 600;
+    padding: 10px;    
+    position: relative;
+}
+td{
+    padding: 10px;
+    color: black;
+    background-color: #ffc107;
+    border: 1px solid black;    
+}

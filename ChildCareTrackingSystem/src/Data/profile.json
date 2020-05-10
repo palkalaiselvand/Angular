@@ -1,0 +1,33 @@
+[
+    {
+        "profleid":"da8f3219-4d33-4a69-b951-42a11a7cc39c",
+        "username":"palkalaiselvand",
+        "password":"pals@123",
+        "fathername":"Palkalaiselvan",
+        "mothername":"Poornima Devi",
+        "parenttype":"Parent",
+        "babyname":"Pranavi",
+        "babygender":"Female",
+        "dateofbirth":"28-09-2019",
+        "avatar":null
+        
+    },
+    {
+        "profleid":"fd58789c-d4d4-4578-a519-688efcb89b74",
+        "username":"senthamilselvand",
+        "password":"tamil@123",
+        "fathername":"Senthamilselvan",
+        "mothername":"Anandi",
+        "parenttype":"Parent",
+        "babyname":"Samyuktha",
+        "babygender":"Female",
+        "dateofbirth":"02-08-2018",
+        "avatar":null
+    },
+    {
+        "profleid":"928bd08e-d324-4c0d-ac74-a6c784a7719f",
+        "username":"pals",
+        "password":"pals",
+        "isadmin":true
+    }
+]

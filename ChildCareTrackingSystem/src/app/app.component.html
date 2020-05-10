@@ -1,0 +1,14 @@
+<div>  
+  <header class="header">
+    <h1>
+        Child care tracking system
+        <span style="margin-left: 500px; font-size: small;">{{welcomenote}}</span>
+        <a class="btn btn-primary" style="position: absolute; align-items: flex-start;" href="/login">
+          {{login}}
+        </a><span></span>
+    </h1>         
+    </header> 
+    <app-navbar *ngIf="isValidLogin"></app-navbar>   
+    <app-login (outputToParent)="loginEventListener($event)" *ngIf="!isValidLogin"></app-login>
+    <router-outlet></router-outlet>
+</div>
